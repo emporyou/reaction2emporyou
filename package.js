@@ -10,7 +10,7 @@ Package.on_use(function (api, where) {
   api.use([
     "iron-router",
     "less",
-    "reaction-commerce"
+    "reaction-core"
   ], ["client"]);
 
   api.add_files([
