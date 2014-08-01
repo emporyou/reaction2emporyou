@@ -1,4 +1,4 @@
-Meteor.app.packages.register(
+ReactionCore.registerPackage
   name: "reaction-helloworld"
   label: "HelloWorld"
   description: "Example Reaction Package"
@@ -7,4 +7,3 @@ Meteor.app.packages.register(
   template: "helloworld"
   hasWidget: true
   priority: "2"
-)
