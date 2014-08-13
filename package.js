@@ -5,16 +5,19 @@ Package.describe({
 Package.on_use(function (api, where) {
   api.use([
     "standard-app-packages",
-    "coffeescript"
+    "coffeescript",
+    "reaction-core"
   ], ["client", "server"]);
   api.use([
     "iron-router",
-    "less",
-    "reaction-core"
+    "less"
   ], ["client"]);
 
   api.add_files([
-    "client/register.coffee",
+    "common/register.coffee"
+  ]);
+
+  api.add_files([
     "client/routing.coffee",
 
     "client/templates/helloworld/helloworld.html",
