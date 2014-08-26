@@ -1,5 +1,8 @@
 Package.describe({
-  summary: "Reaction HelloWorld - a Hello World package example"
+  summary: "Reaction Hello World - example package for Reaction",
+  name: "ongoworks:reaction-helloworld",
+  version: "0.1.1",
+  git: "https://github.com/ongoworks/reaction-helloworld.git"
 });
 
 Package.on_use(function (api, where) {
