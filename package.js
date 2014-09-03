@@ -1,7 +1,7 @@
 Package.describe({
   summary: "Reaction Hello World - example package for Reaction",
-  name: "ongoworks:reaction-helloworld",
-  version: "0.1.1",
+  name: "reactioncommerce:reaction-helloworld",
+  version: "0.1.2",
   git: "https://github.com/ongoworks/reaction-helloworld.git"
 });
 
@@ -9,12 +9,8 @@ Package.on_use(function (api, where) {
   api.use([
     "standard-app-packages",
     "coffeescript",
-    "reaction-core"
+    "reactioncommerce:core"
   ], ["client", "server"]);
-  api.use([
-    "iron-router",
-    "less"
-  ], ["client"]);
 
   api.add_files([
     "common/register.coffee"
