@@ -1,13 +1,13 @@
 Package.describe({
   summary: "Reaction Hello World - example package for Reaction",
   name: "reactioncommerce:reaction-helloworld",
-  version: "0.1.3",
+  version: "0.1.4",
   git: "https://github.com/ongoworks/reaction-helloworld.git"
 });
 
 Package.on_use(function (api, where) {
   api.versionsFrom('METEOR@0.9.0');
-  api.use("meteor-platform");
+  api.use("meteor-platform@1.2.1");
   api.use("templating");
   api.use("coffeescript");
   api.use("less");
