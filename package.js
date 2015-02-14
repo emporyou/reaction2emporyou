@@ -1,7 +1,7 @@
 Package.describe({
   summary: "Reaction Hello World - example package for Reaction",
   name: "reactioncommerce:reaction-helloworld",
-  version: "0.2.0",
+  version: "0.3.0",
   git: "https://github.com/ongoworks/reaction-helloworld.git"
 });
 
@@ -11,15 +11,13 @@ Package.on_use(function (api, where) {
   api.use("templating");
   api.use("coffeescript");
   api.use("less");
-  api.use("reactioncommerce:core@0.3.0");
+  api.use("reactioncommerce:core@0.4.0");
+
+  api.add_files("server/register.coffee",["server"]); // register as a reaction package
+
+  api.add_files("common/routing.coffee",["server"]); // common routing
 
   api.add_files([
-    "common/register.coffee"
-  ]);
-
-  api.add_files([
-    "client/routing.coffee",
-
     "client/templates/helloworld/helloworld.html",
     "client/templates/helloworld/helloworld.coffee",
     "client/templates/helloworld/helloworld.less",
