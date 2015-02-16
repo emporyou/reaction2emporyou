@@ -3,8 +3,8 @@
 Sample 'Hello World' meteor package for Reaction Commerce.
 
 * package.js declares the [package](http://docs.meteor.com/#writingpackages) to the [Meteor](https://github.com/meteor/meteor) server.
-* register.js declares the package to the [Reaction](https://github.com/ongoworks/reaction) system.
-* router.js declares url routing for the package using [iron-router](https://github.com/EventedMind/iron-router)
+* server/register.coffee declares the package to the [Reaction](https://github.com/ongoworks/reaction) system.
+* common/routing.coffee declares url routing for the package using [iron-router](https://github.com/EventedMind/iron-router)
 * index.html is the "hello world" html template.
 
 Clone to reaction/packages then add package to local meteor server:
@@ -13,22 +13,4 @@ Clone to reaction/packages then add package to local meteor server:
 
 
 
-# register.js
 
-		Meteor.startup(function () {
-		  ReactionCore.Events.info("Adding HelloWorld to packages");
-		});
-
-Icons available are from the [Font Awesome](http://fortawesome.github.io/Font-Awesome/icons/) icon library.
-
-# Metafields data
-	Can be used to store any data necessary for this package.
-
-
-"type" has a special functionality for grouping in the navigation and package manager.
-
-	metafields: {type:''} is a top level navigation item that must be enabled.
-
-	metafields: {type:'core'} is automatically enabled for all users
-
-	metafields: {type:'reaction-pkgmanager'} will show up as sub item of "Packages" navigation (or any package you put in)
