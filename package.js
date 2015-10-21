@@ -1,8 +1,8 @@
 Package.describe({
   summary: "Emporyou connector for Reaction",
-  name: "reactioncommerce:emporyou-connector",
+  name: "reactioncommerce:reaction2emporyou",
   version: "0.4.0",
-  git: "https://github.com/hidekiyamamoto/emporyou-connector.git"
+  git: "https://github.com/hidekiyamamoto/reaction2emporyou.git"
 });
 
 Package.on_use(function (api) {
@@ -35,9 +35,9 @@ Package.on_use(function (api) {
 
 
   api.addFiles([
-    "client/templates/emporyou-connector/emporyou-connector.html",
-    "client/templates/emporyou-connector/emporyou-connector.js",
-    "client/templates/emporyou-connector/emporyou-connector.less",
+    "client/templates/reaction2emporyou/reaction2emporyou.html",
+    "client/templates/reaction2emporyou/reaction2emporyou.js",
+    "client/templates/reaction2emporyou/reaction2emporyou.less",
 
     "client/templates/dashboard/widget/widget.html",
     "client/templates/dashboard/widget/widget.js",
