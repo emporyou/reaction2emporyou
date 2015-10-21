@@ -1,7 +1,7 @@
 Template.reaction2emporyou.message = () => {
-  return "Hello World!";
+  return "reaction -> emporyou";
 };
 
 Template.reaction2emporyou.description = () => {
-  return "An example package to use as a template for custom Reaction packages.";
+  return "BWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!";
 };
