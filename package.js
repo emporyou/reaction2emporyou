@@ -32,14 +32,6 @@ Package.on_use(function (api) {
 
   api.addFiles("common/routing.js", ["client", "server"]); // common routing
 
-BrowserPolicy.content.allowConnectOrigin("https://*.emporyoum.com");
-BrowserPolicy.content.allowConnectOrigin("http://*.emporyoum.com");
-BrowserPolicy.content.allowConnectOrigin("https://emporyoum.com");
-BrowserPolicy.content.allowConnectOrigin("http://emporyoum.com");
-BrowserPolicy.content.allowConnectOrigin("https://*.emporyou.com");
-BrowserPolicy.content.allowConnectOrigin("http://*.emporyou.com");
-BrowserPolicy.content.allowConnectOrigin("https://emporyou.com");
-BrowserPolicy.content.allowConnectOrigin("http://emporyou.com");
 
   api.addFiles([
     "client/templates/emporyou-connector/emporyou-connector.html",
