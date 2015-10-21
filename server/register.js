@@ -41,11 +41,3 @@ ReactionCore.registerPackage({
     }
   ]
 });
-BrowserPolicy.content.allowConnectOrigin("https://*.emporyoum.com");
-BrowserPolicy.content.allowConnectOrigin("http://*.emporyoum.com");
-BrowserPolicy.content.allowConnectOrigin("https://emporyoum.com");
-BrowserPolicy.content.allowConnectOrigin("http://emporyoum.com");
-BrowserPolicy.content.allowConnectOrigin("https://*.emporyou.com");
-BrowserPolicy.content.allowConnectOrigin("http://*.emporyou.com");
-BrowserPolicy.content.allowConnectOrigin("https://emporyou.com");
-BrowserPolicy.content.allowConnectOrigin("http://emporyou.com");
