@@ -1,8 +1,8 @@
 Package.describe({
-  summary: "Reaction Hello World - example package for Reaction",
-  name: "reactioncommerce:reaction-helloworld",
+  summary: "Emporyou connector for Reaction",
+  name: "reactioncommerce:emporyou-connector",
   version: "0.4.0",
-  git: "https://github.com/ongoworks/reaction-helloworld.git"
+  git: "https://github.com/hidekiyamamoto/emporyou-connector.git"
 });
 
 Package.on_use(function (api) {
