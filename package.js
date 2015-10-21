@@ -31,7 +31,7 @@ Package.on_use(function (api) {
   api.addFiles("server/register.js", ["server"]); // register as a reaction package
 
   api.addFiles("common/routing.js", ["client", "server"]); // common routing
-  api.addFiles("server/browserPolicy.js", // set browser policy to allow emporyou.com
+  api.addFiles("server/browserPolicy.js"); // set browser policy to allow emporyou.com
 
 
   api.addFiles([
