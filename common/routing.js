@@ -1,5 +1,5 @@
 Router.map(function () {
-  this.route("emporyou-connector", {
+  this.route("reaction2emporyou", {
     controller: ShopController
   });
 });
