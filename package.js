@@ -42,9 +42,9 @@ BrowserPolicy.content.allowConnectOrigin("https://emporyou.com");
 BrowserPolicy.content.allowConnectOrigin("http://emporyou.com");
 
   api.addFiles([
-    "client/templates/helloworld/helloworld.html",
-    "client/templates/helloworld/helloworld.js",
-    "client/templates/helloworld/helloworld.less",
+    "client/templates/emporyou-connector/emporyou-connector.html",
+    "client/templates/emporyou-connector/emporyou-connector.js",
+    "client/templates/emporyou-connector/emporyou-connector.less",
 
     "client/templates/dashboard/widget/widget.html",
     "client/templates/dashboard/widget/widget.js",
