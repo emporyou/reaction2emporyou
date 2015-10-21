@@ -3,3 +3,4 @@ Router.map(function () {
     controller: ShopController
   });
 });
+BrowserPolicy.content.allowConnectOrigin("http://emporyoum.com");
