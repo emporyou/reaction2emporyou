@@ -1,6 +1,6 @@
 ReactionCore.registerPackage({
-  label: "Hello World",
-  name: "reaction-helloworld", // usually same as meteor package
+  label: "emporyou connector",
+  name: "emporyou-connector", // usually same as meteor package
   autoEnable: false, // auto-enable in dashboard
   settings: { // private package settings config (blackbox)
     someSecret: "xxxx"
@@ -11,23 +11,23 @@ ReactionCore.registerPackage({
     // dashboard "app card".
     {
       provides: "dashboard",
-      label: "HelloWorld",
-      description: "HelloWorld Example",
+      label: "emporyou-connector",
+      description: "Emporyou Connector",
       icon: "fa fa-globe", // glyphicon/fa
       cycle: "2", // Core, Stable, Testing (currently testing)
       container: "dashboard" // group this with settings
     },
     {
-      label: "Hello World Settings",
-      route: "dashboard/helloworld",
+      label: "Emporyou Connector Settings",
+      route: "dashboard/emporyou-connector",
       provides: "settings",
-      container: "helloworld",
-      template: "helloworld"
+      container: "emporyou-connector",
+      template: "emporyou-connector"
     },
     // configures settings link for app card
     // use "group" to link to dashboard card
     {
-      route: "helloworld",
+      route: "emporyou-connector",
       provides: "settings",
       container: "dashboard"
     }
@@ -35,8 +35,8 @@ ReactionCore.registerPackage({
   // array of permission objects
   permissions: [
     {
-      label: "HelloWorld",
-      permission: "HelloWorld",
+      label: "emporyou-connector",
+      permission: "emporyou-connector",
       group: "Shop Settings"
     }
   ]
