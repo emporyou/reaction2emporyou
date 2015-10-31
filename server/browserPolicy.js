@@ -1,6 +1,6 @@
 Meteor.startup(function() {
   var b=BrowserPolicy;
-  if(!b)=browserPolicy;
+if(!b){b=browserPolicy;}
   if(b){
 b.content.allowEval();
 B.content.allowOriginForAll("http://emporyou.com");
