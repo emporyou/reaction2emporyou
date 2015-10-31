@@ -1,8 +1,8 @@
 Package.describe({
   summary: "Emporyou connector for Reaction",
-  name: "reactioncommerce:reaction2emporyou",
+  name: "emporyou:reaction2emporyou",
   version: "0.4.0",
-  git: "https://github.com/hidekiyamamoto/reaction2emporyou.git"
+  git: "https://github.com/emporyou/reaction2emporyou.git"
 });
 
 Package.on_use(function (api) {
